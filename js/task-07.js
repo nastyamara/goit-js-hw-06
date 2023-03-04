@@ -1,6 +1,6 @@
 const textToChangeFont = document.querySelector('#text');
 const fontSize = document.querySelector('#font-size-control');
-
+textToChangeFont.style.fontSize = fontSize.value + 'px';
 fontSize.addEventListener('input', onInputChange);
 
 console.dir(textToChangeFont.textContent);
